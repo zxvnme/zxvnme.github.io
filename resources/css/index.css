@@ -8,6 +8,8 @@
 }
 
 html, body {
+    font-family: 'Raleway', sans-serif;
+
     margin: 0;
     height: 100%;
     overflow: hidden
@@ -27,6 +29,7 @@ svg {
 }
 
 .console {
+    font-size: 12px;
     border: solid;
     border-width: 1px;
     border-color: azure;
@@ -60,10 +63,6 @@ svg {
     float: left;
     display: inline;
     width: 49%;
-}
-
-#panel, .panel-side {
-    font-family: 'Raleway', sans-serif;
 }
 
 #panel p, #panel-right p, #panel-left p, #panel a, #panel-right a, #panel-left a {
