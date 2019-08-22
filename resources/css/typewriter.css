@@ -1,0 +1,28 @@
+.typewriter {
+    z-index: -1;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Consolas";
+}
+.typewriter:after {
+    content: "|";
+    -webkit-animation: blink 500ms linear infinite alternate;
+    animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
